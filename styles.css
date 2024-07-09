@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a5a17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #cfcfcf6e;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid #202020;
+    border-radius: 8px;
+    resize: none;
+    font-size: 1.2em;
+}
+
+.output {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.output p {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
